@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fy.mu.exams.easy.easyexamsnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/easyexams"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/easyexams"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splash_java"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".First_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Second_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Third_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fourth_java"
+            android:label="@string/fourth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fifth_java"
+            android:label="@string/fifth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sixth_java"
+            android:label="@string/sixth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seventh_java"
+            android:label="@string/seventh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eighth_java"
+            android:label="@string/eighth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ninth_java"
+            android:label="@string/ninth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tenth_java"
+            android:label="@string/tenth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Eleventh_java"
+            android:label="@string/eleventh"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedPhysics1Dec2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedPhysics1May2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedChemistry1Dec2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedChemistry1May2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedMathematics1May2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedMathematics1Dec2015_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeeeDec2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeeeMay2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedPhysics2Dec2016"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedPhysics2May2016"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedChemistry2Dec2016"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedChemistry2May2016"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedMathematics2May2016"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AppliedMathematics2Dec2015"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpaDec2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpaMay2016_java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AyushInfoButton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AyushIdeaButton"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotificationUpdates"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <service android:name=".MyFirebaseIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!--
+            <service
+            android:name=".FcmInstanceIdService">
+            <intent-filter>
+                <action
+                    android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name=".FcmMessagingService">
+            <intent-filter>
+                <action
+                    android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        -->
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Credits"></activity>
+    </application>
+
+</manifest>

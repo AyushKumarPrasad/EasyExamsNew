@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@mipmap/landingpage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_address"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back_info"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/toolbar_arrowback" />
+        <TextView
+            android:text="Info"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:paddingTop="30dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/easyexams"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+            <TextView
+                android:id="@+id/contactUs1"
+                android:text="@string/info1"
+                android:layout_marginTop="30dp"
+                android:typeface="serif"
+                android:textColor="@color/infocolor"
+                android:fontFamily="@font/arbutus_slab"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs2"
+                android:text="@string/info2"
+                android:layout_marginTop="20dp"
+                android:typeface="serif"
+                android:textColor="@color/infocolor"
+                android:fontFamily="@font/arbutus_slab"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs3"
+                android:text="@string/info3"
+                android:layout_marginTop="20dp"
+                android:typeface="serif"
+                android:textColor="@color/infocolor"
+                android:fontFamily="@font/arbutus_slab"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs4"
+                android:text="@string/info4"
+                android:layout_marginTop="20dp"
+                android:typeface="serif"
+                android:textColor="@color/infocolor"
+                android:fontFamily="@font/arbutus_slab"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

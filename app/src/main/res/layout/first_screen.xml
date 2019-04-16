@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#00264d"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:elevation="0dp"
+        android:minHeight="56dp"
+        android:theme="@style/ToolbarTheme"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@style/AppTheme" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logotransparent"
+        android:id="@+id/first"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="SEMESTER 1"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="92dp"
+        android:id="@+id/b1"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff"
+        android:background="#FF7F50" />
+
+    <Button
+        android:text="SEMESTER 2"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:id="@+id/b2"
+        android:background="#FF7F50"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/idea"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="19dp"
+        app:srcCompat="@mipmap/logos"
+        android:layout_below="@+id/b2"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

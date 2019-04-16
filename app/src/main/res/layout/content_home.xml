@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@mipmap/landingpage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/app_bar_home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/logo_home"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/easyexams"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:gravity="center"
+                android:text="Semester 1"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/edittextcolor"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@mipmap/dobinput"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:gravity="center"
+                android:text="Semester 2"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/edittextcolor"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@mipmap/dobinput"
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/marqueText"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:padding="10dp"
+                android:layout_marginTop="90dp"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:textColor="@color/infocolor"
+                android:textSize="20sp"
+                android:gravity="center|start"
+                android:textStyle="bold|italic"
+                android:singleLine="true"
+                android:maxLines="2"
+                android:text="@string/quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="EllipsizeMaxLines" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

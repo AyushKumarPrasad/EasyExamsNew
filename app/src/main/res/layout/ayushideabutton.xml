@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@mipmap/landingpage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_address"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/back_idea"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/toolbar_arrowback" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/arbutus_slab"
+            android:gravity="center"
+            android:text="Exam Tips"
+            android:textColor="@color/textColor"
+            android:textSize="18sp" />
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:paddingTop="30dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/easyexams"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/contactUs1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/one"
+                android:textColor="@color/aboutus"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/contactUs2"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/oneA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs3"
+                android:layout_marginTop="20dp"
+                android:typeface="serif"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs4"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/twoA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs5"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs6"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/threeA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs7"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs8"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/fourA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs9"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs10"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/fiveA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs11"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs12"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/sixA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs13"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs14"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/sevenA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs15"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold|italic"
+                android:textSize="18sp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs16"
+                android:textSize="8pt"
+                android:typeface="serif"
+                android:textColor="@color/textColor"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/eightA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs17"
+                android:padding="10dp"
+                android:layout_marginTop="40dp"
+                android:textSize="8pt"
+                android:background="@mipmap/dobinput"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:textColor="@color/edittextcolor"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="center"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/contactUs18"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:typeface="serif"
+                android:textColor="@color/aboutus"
+                android:fontFamily="@font/arbutus_slab"
+                android:text="@string/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/infobutton"
+        android:icon="@mipmap/logos"
+        android:title="Information"
+        android:titleCondensed=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/facebook"
+        android:icon="@mipmap/logotransparent"
+        android:title="Facebook"
+        android:titleCondensed=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/closebutton"
+        android:icon="@mipmap/logoeducation"
+        android:title="Close"
+        android:titleCondensed=""
+        app:showAsAction="always"/>
+
+</menu>

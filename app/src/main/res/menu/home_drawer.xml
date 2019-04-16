@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/informationButton"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="Info" />
+        <item
+            android:id="@+id/examTips"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="Exam Tips" />
+        <item
+            android:id="@+id/notificationButton"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/rateUs"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/shareApp"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share App" />
+        <item
+            android:id="@+id/privacyPolicy"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/credits"
+            android:icon="@drawable/ic_copyright_black_24dp"
+            android:title="Credits" />
+        <item
+            app:showAsAction="ifRoom"
+            android:id="@+id/social_media1"
+            app:actionLayout="@layout/space_socialmedia"
+            android:title="" />
+        <item
+            app:showAsAction="ifRoom"
+            android:id="@+id/social_media"
+            app:actionLayout="@layout/socialmedia"
+            android:title="" />
+    </group>
+</menu>

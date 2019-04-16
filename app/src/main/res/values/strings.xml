@@ -1,0 +1,124 @@
+<resources>
+
+    <string name="app_name">EasyExams</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="first">Mumbai University Engineering</string>
+
+    <string name="second">First Semester</string>
+
+    <string name="third">Second Semester</string>
+
+    <string name="fourth">Applied Physics 1</string>
+
+    <string name="fifth">Applied Chemistry 1</string>
+
+    <string name="sixth">Applied Mathematics 1</string>
+
+    <string name="seventh">Basic Electrical and Electronics Enginering</string>
+
+    <string name="eighth">Applied Physics 2</string>
+
+    <string name="ninth">Applied Chemistry 2</string>
+
+    <string name="tenth">Applied Mathematics 2</string>
+
+    <string name="eleventh">Structured Programming Approach</string>
+
+    <string name="facebook_marketing">ayush</string>
+
+    <string name="app_phy_1_dec">DEC 2016</string>
+
+    <string name="app_phy_1_may">MAY 2016</string>
+
+    <string name="app_chem_1_dec">DEC 2016</string>
+
+    <string name="app_chem_1_may">MAY 2016</string>
+
+    <string name="app_maths_1_may">MAY 2016</string>
+
+    <string name="app_maths_1_dec">DEC 2015</string>
+
+    <string name="beee_dec">DEC 2016</string>
+
+    <string name="bee_may">MAY 2016</string>
+
+
+    <string name="one">1. Draw a line to create a margin</string>
+
+    <string name="oneA">The moment when you get answer sheet put a margin on all pages at the right side of answer sheet about 2-3 cms wide with pencil.
+                        This will increase your presentation marks and your answer sheet will look more appealing.</string>
+
+    <string name="two">2. Always try to make diagram for theory questions</string>
+
+    <string name="twoA">Diagram can Fetch extra 1-2 marks for a question, Even if you dont know the theory points, a diagram can get you 1-2 marks and it is easy to
+                        remember diagram and elaborate it as compare to remembering 5-10 points.</string>
+
+    <string name="three">3. Dont waste time </string>
+
+    <string name="threeA">When you see question paper. sometimes it seems you know the answer but when you arrive at that particular question and start writing you
+                        forget lot of points. Don’t waste time in thinking, switch to next question.</string>
+
+    <string name="four">4.Tip for the above problem</string>
+
+    <string name="fourA">Leave some pages and continue with next question without wasting time, while writing next question if you remember the answer of previous
+                        question write in the space you have left. This will save your time which you can use for thinking about other left out questions.</string>
+
+    <string name="five">5. Try to attempt more questions</string>
+
+    <string name="fiveA">By attempting more questions your chances of scoring marks increases, this may help you in passing the examination. Also follow above
+                        points to score good marks.</string>
+
+    <string name="six">6.Time Management</string>
+
+    <string name="sixA">Dear students motive of exam is not only about studying and knowledge but also how you manage time and present your answer accordingly.
+                        Remember answers of question point-wise which will be easy for revision and also during exam can easily come to your mind. </string>
+
+    <string name="seven">7. Never Study 15 mins before exam</string>
+
+    <string name="sevenA">Your mind must be relaxed before exam and try to think all answers that you studied. This will refine your answers more precisely and
+                        while writing won't have to think and invest more time.</string>
+
+    <string name="eight">8.Say no to group study before exam</string>
+
+    <string name="eightA">Lot of students go for group study before 1 day of exam which is very bad idea. However if you are willing for group study do it before
+                        3-4 days not 1 day before exam. It is of no use if you don’t revise it alone. Everybody understands in a different way and different time,
+                        so dear students study and revise alone 1 day before exams. </string>
+
+    <string name="nine">If you follow above tips be confident that you gonna score good marks in examination.</string>
+
+    <string name="ten">Your future is in your hands.</string>
+
+    <string name="info1">Dear Students,</string>
+
+    <string name="info2">This app is primarily focussed for first year engineering students of Mumbai University however students of
+        different universities can also refer this notes because more or less questions and syllabus are same.</string>
+
+    <string name="info3"> This app contains 2 year solved questions papers under old syllabus of Mumbai University Dec 2016 and May 2016. All answers are given in
+        point wise orientation so that students can understand well and also it is easy to remember during exams time.</string>
+
+    <string name="info4">Students will also receive notifications regarding exams and also students looking for internship can use this app which will give you
+        regular updates. New and updated version of this app will be coming very soon which will have more contents and information
+        for students.</string>
+
+    <string name="credits1">The idea and development of this app is done by Mr. Ayush Kumar an ex student of Mumbai University of Pillai’s
+        College, New Panvel. The motive was to help students during exams time so that they won’t have to spend time in gathering answers
+        and can access notes at one stop.</string>
+
+    <string name="credits2">The implementation of idea and other small miscellaneous work was done by Mr. Ashish Kumar. who helped
+        our team in all stages of development, without his support it would not have been possible to develop this application.</string>
+
+    <string name="credits3">The designing is done by Mr. Rahul Singh who helped me in visualisation and design of app to beautify
+        it and look more appealing to the users.</string>
+
+    <string name="credits4">Our website is developed by Mr. Shubham Damodar who is a proficient website developer and has graduated from
+        Y.C. College , Mumbai.</string>
+
+    <string name="quote">Put your heart, mind, and soul into even your smallest acts. This is the secret of success.</string>
+</resources>
